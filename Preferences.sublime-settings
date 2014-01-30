@@ -1,0 +1,12 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/Boron Color Scheme/Boron.tmTheme",
+	"default_line_ending": "unix",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_to_bracket": true,
+	"translate_tabs_to_spaces": true
+}

@@ -1,0 +1,18 @@
+{
+    "target": "custom_builder_prompt",
+    "selector": "source.systemverilog, source.vhdl, source.python",
+    "file_regex": "^#? ?\\*\\* Error: .* (.+)\\(([0-9]+)\\): ()(.*)$",
+    "env": {"DISPLAY": ":0.0"},
+    "variants": [
+        {
+            "name": "Modelsim Simulation",
+        },
+    ]
+}
+
+//** Error: w:\ridge\asic\vlibs/testcases/ridge/usb3_vtb/com/../device/Test_RAM.v(175): near "end": syntax error, unexpected end, expecting ')'
+//# ** Error: W:\ridge\asic/vlibs/testcases/ridge/ridge_testbench.sv(157): syntax error, unexpected #, expecting ')'
+//# ** Error: (vopt-7052) miniCPU_tb.sv(98): Failed to find 'Abits' in hierarchical name '/memory/Abits'.
+
+
+//c:\\python27\\python.exe -u c:\\Users\\pburgers\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Builders\\scons2_remote.py $file

@@ -1,0 +1,34 @@
+{
+	"commands":
+	[
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara vsim",
+		"\"c:\\program files (x86)\\Mozilla Firefox\\firefox.exe\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \". add_modelsim_path 10.2c; cd /net/callisto/space/local_scratch/doulos/pburgers/svcomp/exF4; qverilog -f files\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \". add_modelsim_path 10.2c; cd /net/callisto/space/local_scratch/doulos/pburgers/svcomp/exF4; qverilog -f files\\\"\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto \\\". add_modelsim_path 10.2c; cd /local_scratch/doulos/pburgers/svcomp/exF4; qverilog -f files\\\"\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto \\\". add_modelsim_path 10.2c; cd /local_scratch/doulos; ls;  qverilog -f files\\\"\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto . add_modelsim_path 10.2c; cd /local_scratch/doulos; ls;  qverilog -f files\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto; . add_modelsim_path 10.2c; cd /local_scratch/doulos; ls;  qverilog -f files",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto; . add_modelsim_path 10.2c; cd /local_scratch/doulos/pburgers; ls qverilog -f files",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto; ls /; . add_modelsim_path 10.2c; cd /local_scratch/doulos/; qverilog -f files",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto; ls /; . add_modelsim_path 10.2c; cd /local_scratch; qverilog -f files",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto; ls /; . add_modelsim_path 10.2c; cd /local_scratch/doulos/pburgers/svcomp/exF4; qverilog -f files",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"ssh -Y callisto; . add_modelsim_path 10.2c; cd /local_scratch/doulos/pburgers/svcomp/exF4; qverilog -f files",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"s callisto; . add_modelsim_path 10.2c; cd /local_scratch/doulos/pburgers/svcomp/exF4; qverilog -f files",
+		"c:\\cygwin64\\bin\\ssh.exe -Y callisto \". add_modelsim_path 10.2c; cd /local_scratch/doulos/pburgers/svcomp/exF4; qverilog -f files",
+		"c:\\\\python27\\\\python.exe -u \"c:\\\\Users\\\\pburgers\\\\AppData\\\\Roaming\\\\Sublime Text 3\\\\Packages\\\\User\\\\Builders\\\\scons2_remote.py\" w:\\\\ridge\\\\asic\\\\vlibs\\\\testcases\\\\ridge\\\\usb3\\\\dev\\\\Test0_reg.v",
+		"c:\\\\python27\\\\python.exe -u \"c:\\\\Users\\\\pburgers\\\\AppData\\\\Roaming\\\\Sublime Text 3\\\\Packages\\\\User\\\\Builders\\\\scons2_remote.py\" ~/work/ridge/asic/vlibs/testcases/ridge/usb3/dev/Test0_reg.v",
+		"c:\\\\python27\\\\python.exe -u \"c:\\\\Users\\\\pburgers\\\\AppData\\\\Roaming\\\\Sublime Text 3\\\\Packages\\\\User\\\\Builders\\\\scons2_remote.py\" w:\\ridge\\asic\\vlibs\\testcases\\ridge\\usb3\\dev\\Test0_reg.v",
+		"c:\\\\python27\\\\python.exe -u \"c:\\\\Users\\\\pburgers\\\\AppData\\\\Roaming\\\\Sublime Text 3\\\\Packages\\\\User\\\\Builders\\\\scons2_remote.py\" w:\\ridge\\asic\\vlibs\\testcases\\ridge\\usb3",
+		"c:\\\\python27\\\\python.exe -u \"c:\\\\Users\\\\pburgers\\\\AppData\\\\Roaming\\\\Sublime Text 3\\\\Packages\\\\User\\\\Builders\\\\scons2_remote.py\" $file",
+		"c:\\\\python27\\\\python.exe -u c:\\\\Users\\\\pburgers\\\\AppData\\\\Roaming\\\\Sublime Text 3\\\\Packages\\\\User\\\\Builders\\\\scons2_remote.py $file",
+		"c:\\cygwin64\\bin\\ssh.exe elara \"echo $DISPLAY\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"echo $DISPLAY\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"cd ~/work/ridge/asic; scons2 regression_mini --techtype=asic_ridge --gui\"",
+		"c:\\cygwin64\\bin\\ssh.exe -Y elara \"cd ~/work/ridge/asic; scons2 regression_mini --gui\"",
+		"dir",
+		"test2build",
+		"test2",
+		"test2buildnew23"
+	]
+}
