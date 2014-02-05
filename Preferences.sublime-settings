@@ -2,7 +2,7 @@
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/Boron Color Scheme/Boron.tmTheme",
 	"default_line_ending": "unix",
-	"font_size": 9,
+	"font_size": 8,
 	"ignored_packages":
 	[
 		"Vintage"
