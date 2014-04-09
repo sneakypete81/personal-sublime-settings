@@ -1,12 +1,15 @@
 {
 	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Boron Color Scheme/Boron.tmTheme",
 	"default_line_ending": "unix",
-	"font_size": 9,
+	"font_size": 10,
+	"highlight_line": true,
 	"ignore_inodes": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Dayle Rees Color Schemes"
 	],
 	"indent_to_bracket": true,
 	"translate_tabs_to_spaces": true
