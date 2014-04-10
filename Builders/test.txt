@@ -1,0 +1,14 @@
+VLOG Errors without #:
+** Error: w:\ridge\asic\vlibs/testcases/ridge/usb3_vtb/com/../device/Test_RAM.v(175): near "end": syntax error, unexpected end, expecting ')'
+
+VLOG Errors with #:
+# ** Error: W:\ridge\asic/vlibs/testcases/ridge/ridge_testbench.sv(157): syntax error, unexpected #, expecting ')'
+
+VSIM Errors:
+# ** Error: (vopt-7052) W:\ridge\asic\vlibs/testcases/nivo/nivo_testbench.sv(174): Failed to find 'reset' in hierarchical name '/clkrst_nivo/reset'.
+
+VSIM Errors with absolute path:
+# ** Error: W:\ridge/asic/vlibs/testcases/nivo/nivo_wrapper.vhd(99): (vopt-1272) Length of formal "v" is 36; length of slice name is 78.
+
+UVM Fatals:
+# UVM_FATAL W:\ridge\asic/vlibs/testcases/nivo/nivo_base_test.svh(50) @ 0: uvm_test_top [DL] Failed to get config for master interface
