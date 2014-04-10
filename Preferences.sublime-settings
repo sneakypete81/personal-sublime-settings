@@ -8,8 +8,8 @@
 	"ignore_inodes": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Dayle Rees Color Schemes"
+		"Dayle Rees Color Schemes",
+		"Vintage"
 	],
 	"indent_to_bracket": true,
 	"translate_tabs_to_spaces": true
